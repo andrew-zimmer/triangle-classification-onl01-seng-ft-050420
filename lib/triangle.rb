@@ -15,11 +15,11 @@ class Triangle
           puts error.message 
       end 
     elsif @side_a == @side_b && @side_b == @side_c 
-      "equalaterial"
+      return "equalaterial"
     elsif @side_a == @side_b || @side_a == @side_c || @side_b == @side_c
-      "isosceles"
+      return "isosceles"
     else 
-      "scalene"
+      return "scalene"
     end 
   end 
   
